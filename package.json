@@ -4,7 +4,8 @@
   "description": "little tiers",
   "main": "http_server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "http_server.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,13 @@
     "url": "https://github.com/kogsio/littletiers/issues"
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Testing",
+    "Jest",
+    "LowDB"
+  ],
   "dependencies": {
     "cors": "^2.8.5",
     "@faker-js/faker": "^7.4.0",
